@@ -11,7 +11,6 @@ export interface ICharacterInfo {
 }
 
 export interface ICharacterResult {
-  //Todo API deki gibi tanımlamaları ve tipleri yaz
   id: number;
   name: string;
   status: string;

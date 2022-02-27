@@ -1,0 +1,19 @@
+.input {
+  width: 20%;
+  border-radius: 8px;
+  border: 2px solid rgb(146, 34, 211);
+  padding: 10px;
+  box-shadow: 1px 3px 9px rgba($color: #000, $alpha: 0.5);
+  &:focus {
+    outline: none;
+  }
+}
+
+.btn {
+  box-shadow: 1px 3px 9px rgba($color: #000, $alpha: 0.5);
+  background-color: rgb(146, 34, 211);
+  color: white;
+  &:hover {
+    color: white;
+  }
+}

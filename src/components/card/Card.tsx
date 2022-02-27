@@ -1,4 +1,4 @@
-import React from "react";
+import React, { FunctionComponent } from "react";
 import styles from "components/card/Card.module.scss";
 import { ICharacterResult } from "interfaces/Character";
 
@@ -6,7 +6,7 @@ interface Props {
   results: Array<ICharacterResult> | undefined;
 }
 
-const Card: React.FC<Props> = (props) => {
+const Card: FunctionComponent<Props> = (props) => {
   let display: any;
   console.log(props.results);
 

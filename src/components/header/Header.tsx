@@ -1,6 +1,7 @@
+import React, { FunctionComponent } from "react";
 import logo from "assets/images/logo.png";
 
-const Header: React.FC = () => {
+const Header: FunctionComponent = () => {
   return (
     <nav className="navbar bg-success bg-opacity-50 p-2 ">
       <div className="container d-flex justify-content-between align-items-center">
